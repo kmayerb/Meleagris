@@ -1,5 +1,9 @@
+from __future__ import absolute_import, division, print_function
+from .version import __version__  # noqa
+
 from meleagris import carve
 from meleagris import roast
+
 
 __all__ = [
     'roast',

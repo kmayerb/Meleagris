@@ -13,6 +13,8 @@ source ./venv/bin/activate
 pip install -r requirements.txt
 pip install git+https://github.com/kmayerb/meleagris.git@master
 ```
+### env should contain:
+
 
 ## To install the meleagris with its development env using python 2.7.11
 ```bash
@@ -22,7 +24,7 @@ pip install -r requirements-dev.txt
 pip list
 ```
 
-### pip list  should show
+### dev-env should contain
 ```bash
 Package            Version 
 ------------------ --------
@@ -32,6 +34,7 @@ certifi            2019.3.9
 configparser       3.7.4   
 contextlib2        0.5.5   
 funcsigs           1.0.2   
+future             0.17.1  
 importlib-metadata 0.17    
 more-itertools     5.0.0   
 numpy              1.10.1  
@@ -47,7 +50,7 @@ setuptools         41.0.1
 six                1.12.0  
 wcwidth            0.1.7   
 wheel              0.33.4  
-zipp               0.5.1 
+zipp               0.5.1  
 ```
 
 ```
