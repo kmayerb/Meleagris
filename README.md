@@ -14,12 +14,20 @@ pip install -r requirements.txt
 pip install git+https://github.com/kmayerb/meleagris.git@master
 ```
 
-## To develop meleagris using python 2.7.11
+## To install the meleagris with its development env using python 2.7.11
 ```bash
 virtrualenv venv-dev
-source ./venv/bin/activate
+source ./venv-dev/bin/activate
 pip install -r requirements-dev.txt
 pip install git+https://github.com/kmayerb/meleagris.git@master
+```
+
+## Try some trivial commands, if they work meleagris is installed.
+```bash
+python
+import meleagris as ms 
+ms.roast.roast_temp()
+ms.carve.carve(4,10)
 ```
 
 ## if you don't have virtualenv or pip for python 2.7.11 you can create them very quickly using conda:
@@ -29,7 +37,7 @@ python get-pip.py
 pip install virtualenv 
 ```
 
-or, second best, and even faster if you have permissions issues:
+Or, second best, and even faster if you have permissions issues:
 ```bash
 conda create -name py27 python=2.7.11 virtualenv
 conda activate py27
@@ -37,5 +45,7 @@ virtualenv venv
 conda deactivate
 conda deactivate
 ```
+
+
 
 

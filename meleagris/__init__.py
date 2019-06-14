@@ -1,4 +1,5 @@
 from meleagris import carve
+from meleagris import roast
 
 __all__ = [
     'roast',
