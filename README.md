@@ -15,6 +15,16 @@ pip install git+https://github.com/kmayerb/meleagris.git@master
 ```
 ### env should contain:
 
+```bash
+Package    Version 
+---------- --------
+meleagris  0.1.dev0 # <- installed !!!
+numpy      1.10.1  
+pip        19.1.1  
+setuptools 41.0.1  
+wheel      0.33.4 
+```
+
 
 ## To install the meleagris with its development env using python 2.7.11
 ```bash
