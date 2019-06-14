@@ -1,5 +1,7 @@
 # Meleagris
 
+![meleagris](tk1.png)
+
 really basic Meleagris (turkey) of a package for linux or macOSX
 
 Like its namesake, meleagris does nothing useful; it is a testing ground of python build/distribution best practices to help other packages take flight.
