@@ -1,0 +1,4 @@
+# requirements.txt
+# These are the dependencies, and secondary dependencies
+# that are need to run the package.
+numpy==1.10.1
