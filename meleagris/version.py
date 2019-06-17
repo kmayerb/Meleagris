@@ -64,5 +64,5 @@ MAJOR = _version_major
 MINOR = _version_minor
 MICRO = _version_micro
 VERSION = __version__
-PACKAGE_DATA = {'meleagris': [pjoin('data', '*')]}
+PACKAGE_DATA = {'meleagris': [pjoin('meleagris','data', 'data_file.txt')]}
 REQUIRES = ["numpy"]
