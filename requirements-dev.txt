@@ -7,7 +7,7 @@ funcsigs==1.0.2
 future==0.17.1
 importlib-metadata==0.17
 more-itertools==5.0.0
-numpy==1.10.1
+numpy==1.22.0
 packaging==19.0
 pathlib2==2.3.3
 pluggy==0.12.0
